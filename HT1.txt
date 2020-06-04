@@ -1,0 +1,36 @@
+--> Inicio
+
+	-->Crear secciones
+		-->Declarar Seccion A []	Tipo String
+		-->Declarar Seccion B []	Tipo String
+
+	-->Identificar al estudiante	
+		-->System.out.println("Por favor ingrese su carnet")
+		-->Declarar Carnet = Carnet ingresado		Tipo String
+
+	-->Verificar contadores
+		-->Si SeccionA.lenght<15, entonces System.out.println("Puede Asignarse a la Seccion A")
+		-->Si SeccionB.lenght<15, entonces System.out.println("Puede Asignarse a la Seccion B")
+		-->Else (Intentar abrir nueva Seccion)
+
+	-->Preguntar a cual seccion desea asignarse
+		-->System.out.println("Seleccione la seccion a la que se desea asignar")
+		-->Declarar Respuesta = Proximo numero ingresado
+		-->System.out.println("1. Seccion A")
+		-->System.out.println("2. Seccion B")
+
+	-->Verificar cantidad de Asignados a la seccion elegida
+		-->Caso A
+			--> Si Contador A<15 entonces ingresar nombre y carne a Seccion A[Contador A][i]
+				System.out.println("Se ha asignado correctamente")
+			--> Si Contador A=15 entonces System.out.println("No puede Asignarse a esta seccion")
+		-->Caso B
+			--> Si Contador B<15 entonces ingresar nombre y carne a Seccion B[Contador B][i]
+				System.out.println("Se ha asignado correctamente")
+			--> Si Contador B=15 entonces System.out.println("No puede Asignarse a esta seccion")
+
+	-->Intentar abrir nueva seccion
+		-->System.out.println("Por favor intentar abrir una nueva seccion")
+
+-->Fin
+			
